@@ -1,0 +1,182 @@
+{% extends "base.html" %} {% block content %}
+
+<!-- Section 1 / Hero Section -->
+<section class="section section-1-home">
+  <div class="container">
+    <div class="sec1-home-flex">
+      <div>
+        <h2>Radiance That Reflects Your Inner Glow!</h2>
+        <a href="./about" class="main-btn header-btn">Our Journey</a>
+        <br />
+        <img
+          class="sec-1-left-pic"
+          src="{{ url_for('static', filename='images/header-pic-1.webp') }}"
+          alt=""
+        />
+      </div>
+      <div class="sec-1-right-girl"></div>
+    </div>
+  </div>
+</section>
+<!-- Section 2 / information 1-->
+<section class="section section2-home">
+  <div class="container">
+    <h1 class="info-heading">
+      Illuminate your unique beauty with radiant gemstones,
+      <br />capturing the essence of opulence and celebrating your inner glow.
+    </h1>
+    <h2 class="small-heading">
+      Each piece of our jewellery is uniquely made in our Turkish workshop,
+      <br />
+      incorporating Fairmined Gold to ensure ethical and sustainable practices.
+    </h2>
+  </div>
+</section>
+<!-- Section 3 / Gategory -->
+<section class="section section3-home">
+  <div class="iframe-container">
+    <iframe
+      class="ratio ratio-16x9"
+      src="https://www.youtube.com/embed/ivzPXht4C5E?si=fiIAHCGtq8cd9VzA"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+</section>
+<!-- Section 4 / Information 2 -->
+<section class="section section4-home">
+  <div class="container">
+    <h2 class="heading">
+      What Makes Our Wide Range of Jewelry Options Worth Your Selection?
+    </h2>
+    <div class="main-div-jewelery-section">
+      <div class="gift-col flex-wrap">
+        <img src="{{ url_for('static', filename='images/gifts.svg')}}" alt="" />
+        <h2 class="small-heading">Gift Package</h2>
+        <p class="para">
+          We delicately wrap each piece in elegant packaging, ensuring a
+          beautifully presented and thoughtful gift for any special occasion.
+        </p>
+      </div>
+      <div class="diamond-col flex-wrap">
+        <img
+          src="{{ url_for('static', filename='images/damond.svg')}}"
+          alt=""
+        />
+        <h2 class="small-heading">Diamond and Golden Glow</h2>
+        <p class="para">
+          Our collection Range consists of Golden Excellence, Infused with
+          Diamond Radiance, Your Exclusive Statement of Style.
+        </p>
+      </div>
+      <div class="ring-col flex-wrap">
+        <img src="{{ url_for('static', filename='images/rings.svg')}}" alt="" />
+        <h2 class="small-heading">Lasting Brilliance</h2>
+        <p class="para">
+          Fine craftsmanship and enduring quality unite to offer pieces that
+          boast timeless beauty and sustained brilliance for years to come.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Section 5 / Testimonials -->
+<section class="section section5-home" id="testimonials">
+  <h1 class="heading">Testimonials</h1>
+  <div class="swiper-container testimonials-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img
+          class="testimonial-img"
+          src="{{ url_for('static', filename='images/amy.webp')}}"
+          alt="an image of person left testimonial"
+        />
+        <p class="para">
+          The jewelry here is not just an accessory; it's an expression of art.
+          Each piece tells a story and adds a touch of glamour to every outfit.
+        </p>
+        <h2 class="testimonial-name">Amy John</h2>
+        <img
+          class="rating"
+          src="{{ url_for('static', filename='images/4-half-star-rating.png')}}"
+          alt="rating stars"
+        />
+      </div>
+      <div class="swiper-slide">
+        <img
+          class="testimonial-img"
+          src="{{ url_for('static', filename='images/emily.webp')}}"
+          alt="an image of person left testimonial"
+        />
+        <p class="para">
+          Amazing value for such high-quality pieces. I've shopped from various
+          online jewelry stores, and this one stands out for its exceptional
+          designs.
+        </p>
+        <h2 class="testimonial-name">Emily Smith</h2>
+        <img
+          class="rating"
+          src="{{ url_for('static', filename='images/4-star-rating.png')}}"
+          alt="rating stars"
+        />
+      </div>
+      <div class="swiper-slide">
+        <img
+          class="testimonial-img"
+          src="{{ url_for('static', filename='images/olivia.webp')}}"
+          alt="an image of person left testimonial"
+        />
+        <p class="para">
+          The attention to detail in each piece is incredible. I receive endless
+          compliments every time I wear something from this collection.
+        </p>
+        <h2 class="testimonial-name">Olivia Harris</h2>
+        <img
+          class="rating"
+          src="{{ url_for('static', filename='images/4-half-star-rating.png')}}"
+          alt="rating stars"
+        />
+      </div>
+      <div class="swiper-slide">
+        <img
+          class="testimonial-img"
+          src="{{ url_for('static', filename='images/sophia.webp')}}"
+          alt="an image of person left testimonial"
+        />
+        <p class="para">
+          The user-friendly website made my shopping experience enjoyable. From
+          browsing to checkout, it was seamless, and the jewelry exceeded my
+          expectations.
+        </p>
+        <h2 class="testimonial-name">Sophia Davis</h2>
+        <img
+          class="rating"
+          src="{{ url_for('static', filename='images/4-half-star-rating.png')}}"
+          alt="rating stars"
+        />
+      </div>
+
+      <div class="swiper-slide">
+        <img
+          class="testimonial-img"
+          src="{{ url_for('static', filename='images/vanseena.webp')}}"
+          alt="an image of person left testimonial"
+        />
+        <p class="para">
+          The reviews don't lie! After purchasing from this site, I understand
+          why there's so much praise. The jewelry is stunning, and I can't wait
+          to recommend it to friends.
+        </p>
+        <h2 class="testimonial-name">Vanseena Harrow</h2>
+        <img
+          class="rating"
+          src="{{ url_for('static', filename='images/4-half-star-rating.png')}}"
+          alt="rating stars"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

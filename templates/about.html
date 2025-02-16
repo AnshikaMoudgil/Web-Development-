@@ -1,0 +1,91 @@
+{% extends "base.html" %} {% block content %}
+<section class="section-1-about">
+  <!-- Section 1 / Page header  -->
+  <div class="container">
+    <h1 class="heading">About Us</h1>
+  </div>
+</section>
+
+<!-- Section 2 / About us  -->
+<section class="section-2-about">
+  <div class="container">
+    <div class="main-section-2-about">
+      <div class="perfectmatch-main">
+        <h1 class="heading">Perfect Match For Every Occasion</h1>
+        <p class="para">
+          Discover our charming jewellery Blingz made in Turkey, mostly from
+          gold, and some with diamonds and stones. Enjoy top-notch service for a
+          personalized shopping experience. Our pieces are versatile, perfect
+          for everyday wear or special occasions like weddings and parties. They
+          also make thoughtful gifts for birthdays, anniversaries, or
+          graduations. Explore our collection for timeless style.
+        </p>
+        <div class="details-columns-main">
+          <div class="detail">
+            <h1 class="heading">90%</h1>
+            <p class="para">Handcrafted Items</p>
+          </div>
+          <div class="detail">
+            <h1 class="heading">3.5k</h1>
+            <p class="para">Happy Clients</p>
+          </div>
+          <div class="detail">
+            <h1 class="heading">100%</h1>
+            <p class="para">Customer Services</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img
+          src="{{ url_for('static', filename='images/about-section2-image.webp') }}"
+          alt=""
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 3 / Support Details  -->
+<section class="section section-3-about">
+  <div class="container">
+    <h2 class="heading">What Makes Blingz Accessories Special?</h2>
+    <div class="main-div-jewelery-section">
+      <div class="delivery-col flex-wrap">
+        <img
+          src="{{ url_for('static', filename='images/delivery.svg')}}"
+          alt=""
+        />
+        <h2 class="small-heading">Worldwide Delivery</h2>
+        <p class="para">
+          Enjoy the convenience of worldwide delivery, bringing our exceptional
+          products directly to your doorstep with speed and reliability.
+        </p>
+      </div>
+      <div class="support-col flex-wrap">
+        <img
+          src="{{ url_for('static', filename='images/support.svg')}}"
+          alt=""
+        />
+        <h2 class="small-heading">Fast Support</h2>
+        <p class="para">
+          We're here to help you quickly! Contact us easily through email,
+          phone, our online form, or find our shop for assistance.
+        </p>
+      </div>
+      <div class="protection-col flex-wrap">
+        <img
+          src="{{ url_for('static', filename='images/protection.svg')}}"
+          alt=""
+        />
+        <h2 class="small-heading">Buyer Protection</h2>
+        <p class="para">
+          Our comprehensive buyer protection ensures that your purchase is
+          safeguarded, providing peace of mind and assurance throughout your
+          shopping experience.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

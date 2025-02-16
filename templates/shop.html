@@ -1,0 +1,36 @@
+{% extends "base.html" %} {% block content %}
+
+<section class="section-1-shop">
+  <!-- Section 1 / Shop header -->
+  <div class="container">
+    <h1 class="heading">Shop</h1>
+  </div>
+</section>
+<!-- Section 2 / Products -->
+<section class="section-2-shop">
+  <div class="container">
+    <h1 class="heading">Our Jewellery Selection</h1>
+    <div class="main-grid">
+      {% for member in company %}
+      <div class="item">
+        <span class="showcartmain wishlist-btn">
+          <i class="{{member.addToCart}} "></i>
+        </span>
+        <img
+          class="productimg"
+          src="{{ member.image }}"
+          alt="{{ member.image }}"
+        />
+        <h2 class="small-heading productname">{{ member.name }}</h2>
+        <p class="description_para">{{ member.description }}</p>
+        <p class="para productprice">£ {{ member.price }}</p>
+        <img class="rating" src="{{ member.rate }}" alt="{{ member.rating }}" />
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- Javascript  -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="{{ url_for('static', filename='scripts/script.js')}}"></script>
+{% endblock %}

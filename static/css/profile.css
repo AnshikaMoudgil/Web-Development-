@@ -1,0 +1,111 @@
+.section-2-profile {
+  background-color: #ffe4e4;
+  padding: 100px 0px 0px;
+}
+.section-3-profile {
+  padding: 10px 0px;
+  background-color: #ffe4e4;
+}
+.section-3-profile .main-grid {
+  margin: 50px 0px;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.username {
+  color: black;
+  font-size: 2.8rem;
+}
+.main-profile {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profile-content {
+  flex: 1 0 300px;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-content img {
+  max-width: 200px;
+  margin-bottom: 40px;
+}
+.update-btn {
+  padding: 5px;
+  cursor: pointer;
+}
+.removedatabasebtn:hover {
+  color: pink;
+  cursor: pointer;
+}
+.profile_setting {
+  flex: 1 0 300px;
+  background-color: white;
+}
+.profile_setting form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.profile_setting input {
+  margin: 20px 0px;
+  border: none;
+  font-size: 18px;
+  padding: 10px 10px;
+  background-color: rgba(211, 66, 66, 0.323);
+}
+
+.profile_setting button {
+  margin: 10px 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.profile-btns {
+  display: flex;
+  gap: 30px;
+}
+.deletebtnprofile {
+  background-color: #3b3b3b;
+}
+.deletebtnprofile:hover {
+  background-color: #fc6868;
+}
+
+.profile-label {
+  color: #3b3b3b;
+  margin: 0.3px 0px;
+  text-align: left;
+  font-family: Jost, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+.profile-grid .item {
+  background-color: white;
+  box-shadow: 0px 00px 10px rgba(0, 0, 0, 0.3);
+}
+.profile-grid .productprice {
+  margin-bottom: 40px;
+}
+
+/* cart-section profile */
+.profile-item-quantity {
+  width: 50px;
+  height: 40px;
+  font-size: 18px;
+  display: inline;
+  margin-left: 10px;
+  text-align: center;
+  background-color: rgba(226, 8, 8, 0.323);
+  backdrop-filter: blur(5px);
+  border: 1px solid #fc6868;
+}

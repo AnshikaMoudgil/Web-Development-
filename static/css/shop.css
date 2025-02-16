@@ -1,0 +1,79 @@
+/* Section 1 - heading */
+.section-1-shop {
+  background-image: url("../images/contactmain.webp");
+  background-position: top;
+  background-size: 100%;
+  width: 100%;
+  background-size: cover;
+  padding: 150px 0px;
+  background-repeat: no-repeat;
+}
+.section-1-shop h1 {
+  color: #ffe4e4;
+}
+
+/* Section 2 - the shop */
+.section-2-shop {
+  padding: 150px 0px;
+}
+.section-2-shop .main-grid {
+  margin: 50px 0px;
+  display: grid;
+  gap: 140px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.description_para {
+  color: #3b3b3b;
+  /* margin: 10px 0px; */
+  font-family: Jost, sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.item img {
+  width: 100%;
+  transition: 0.5s;
+}
+.item:hover,
+.item:hover img {
+  opacity: 0.8;
+  backdrop-filter: blur(15px);
+}
+.item .para {
+  text-align: center;
+  color: #fc6868;
+}
+
+.rating {
+  width: 125px !important;
+}
+
+.item {
+  text-align: center;
+  position: relative;
+}
+
+.item .small-heading {
+  font-size: 24px;
+}
+.item span {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  text-align: start;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.wishlist-btn {
+  color: #3b3b3b;
+  font-size: 20px;
+  z-index: 2;
+  cursor: pointer;
+  padding: 30px 10px;
+}
+.wishlist-btn:active {
+  color: #fc6868;
+}

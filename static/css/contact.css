@@ -1,0 +1,63 @@
+.section-2-contact {
+  padding: 100px 0px;
+}
+
+.main-section-2-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+}
+.main-section-2-contact .contacts-cols {
+  padding: 50px 0 30px;
+  text-align: center;
+  background-color: #ffe4e4;
+}
+.contacts-cols .heading {
+  font-size: 4rem;
+}
+.main-section-3-contact {
+  display: flex;
+  gap: 70px;
+}
+.login-form h1 {
+  text-align: left;
+}
+.login-form input {
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  padding: 15px 10px;
+  background-color: #ffe4e4;
+}
+.login-form input::placeholder {
+  color: #212121;
+  margin: 10px 0px;
+  font-family: Jost, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.name-inputs {
+  gap: 20px;
+  display: flex;
+}
+.main-inputs {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.login-form textarea {
+  border: none;
+  background-color: #ffe4e4;
+}
+.form-image img {
+  width: 100%;
+}
+.section-map iframe {
+  margin: 50px 0px 0px;
+  width: 100%;
+}
+
+.find-us {
+  margin-top: 30px;
+}

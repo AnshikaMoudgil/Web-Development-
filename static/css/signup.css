@@ -1,0 +1,65 @@
+/* Sign up page */
+
+.section-1-signup {
+  background-image: url("../images/contactmain.webp");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 120px 0px;
+  background-repeat: no-repeat;
+}
+.section-1-signup h1 {
+  color: rgb(0, 0, 0);
+}
+.section-2-signup {
+  background-color: #ffe4e4;
+  padding: 150px 0px;
+}
+.signup-main {
+  background-color: rgba(255, 255, 255, 0.171);
+  backdrop-filter: blur(10px);
+  max-width: 500px;
+}
+
+.section-1-signup form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.section-1-signup input {
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  padding: 15px 10px;
+  background-color: rgba(255, 255, 255, 0.323);
+  backdrop-filter: blur(5px);
+  border: 1px solid black;
+}
+
+.section-1-signup button {
+  margin: 20px 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.signup-label {
+  color: #efefef;
+  margin: 0.3px 0px;
+  text-align: left;
+  font-family: Jost, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+.email_matching {
+  background-color: #fc6868;
+  color: white;
+  font-size: 2rem;
+  padding: 10px 10px;
+  margin-bottom: 30px;
+}

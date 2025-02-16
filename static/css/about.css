@@ -1,0 +1,55 @@
+/* About page */
+
+/*Section 1*/
+
+.section-1-about {
+  background-image: url("../images/contactmain.webp");
+  background-position: top;
+  background-size: 100%;
+  width: 100%;
+  background-size: cover;
+  padding: 150px 0px;
+  background-repeat: no-repeat;
+}
+.section-1-about h1 {
+  color: #ffe4e4;
+}
+.section-2-about {
+  background-color: #ffe4e4;
+  padding: 100px 0px 0;
+}
+
+.main-section-2-about {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+.perfectmatch-main {
+  max-width: 600px;
+}
+.perfectmatch-main .heading,
+.perfectmatch-main .para {
+  text-align: left;
+}
+.details-columns-main {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.details-columns-main .heading,
+.details-columns-main .para {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+.details-columns-main .para {
+  color: #fc6868;
+}
+.main-section-2-about img {
+  width: 100%;
+}
+
+.section-3-about {
+  padding: 100px 0px;
+  background-color: #ffe4e4;
+}

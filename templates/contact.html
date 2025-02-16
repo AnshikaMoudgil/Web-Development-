@@ -1,0 +1,101 @@
+{% extends "base.html" %} {% block content %}
+<!-- Section 1 Contact / Header section -->
+<section class="section-1-about">
+  <div class="container">
+    <h1 class="heading">Contact Us</h1>
+  </div>
+</section>
+<!-- Section 2 Contact / Contact details -->
+<section class="section-2-contact">
+  <h2 class="heading">Here are ways you can reach us</h2>
+  <div class="container">
+    <div class="main-section-2-contact">
+      <div class="contacts-cols">
+        <h2 class="heading">Phone :</h2>
+        <p class="para">07123456789</p>
+      </div>
+      <div class="contacts-cols">
+        <h2 class="heading">Address :</h2>
+        <p class="para">98 Ploughley Rd, London, NW9 001</p>
+      </div>
+      <div class="contacts-cols">
+        <h2 class="heading">Email :</h2>
+        <p class="para">blingz@emailexample.com</p>
+      </div>
+      <div class="contacts-cols">
+        <h2 class="heading">Open:</h2>
+        <p class="para">Mon-Fri:8am -9pm</p>
+        <p class="para">Sat: 9am - 4pm</p>
+        <p class="para">Sun: Closed</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Section 3 Contact / Form -->
+<section class="section-3-contact">
+  <div class="container">
+    <div class="main-section-3-contact">
+      <div class="form-image">
+        <img
+          src="{{ url_for('static', filename='images/about-section2-image.webp') }}"
+          alt=""
+        />
+      </div>
+      <div class="login-form">
+        <h2 class="heading">Contact us</h2>
+        <p class="para">
+          If you have any messages or enquires feel free to leave us a message,
+          we will get back to you soon.
+        </p>
+        <div class="main-inputs">
+          <div class="name-inputs">
+            <input id="fullname" type="text" placeholder="Full Name" />
+            <input
+              id="email_id"
+              type="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div>
+            <input id="title" type="text" placeholder="Enter a title" />
+          </div>
+          <textarea
+            id="message"
+            placeholder="Type your message here"
+            required
+            name="message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button class="main-btn" onclick="sendMail(); ">submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Section 4 Contact / Map -->
+<section class="section-map">
+  <h2 class="find-us heading">How to find us</h2>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.104063129309!2d-0.13399018795573686!3d51.51130681030055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d248ad83b7%3A0x867d7d1b553a3c7e!2s5%20Lisle%20St%2C%20London%20WC2H%207BF!5e0!3m2!1sen!2suk!4v1686826899133!5m2!1sen!2suk"
+    height="450"
+    title="my-map"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
+</section>
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+></script>
+
+<!-- key for email js  -->
+<script type="text/javascript">
+  (function () {
+    emailjs.init("YHTCkok7fd_7kaLK-");
+  })();
+</script>
+
+{% endblock %}

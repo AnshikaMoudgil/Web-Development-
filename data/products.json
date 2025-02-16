@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "type": "ring",
+    "name": "Enchanted Elegance Ring",
+    "description": "A mesmerizing ring adorned with a mystical gem, radiating an aura of timeless elegance.",
+    "price": "200",
+    "rate": "../static/images/4-half-star-rating.png",
+    "image": "../static/images/products/8.png",
+    "wishlist": "fa-solid fa-heart",
+    "addToCart": "fa-solid fa-cart-shopping"
+  },
+  {
+    "id": 2,
+    "type": "ring",
+    "name": "Celestial Spark Ring",
+    "description": "Capture the essence of the night sky with this celestial-inspired ring, featuring twinkling star motifs.",
+    "price": "300",
+    "rate": "../static/images/4-half-star-rating.png",
+    "image": "../static/images/products/10.png",
+    "wishlist": "fa-solid fa-heart",
+    "addToCart": "fa-solid fa-cart-shopping"
+  },
+  {
+    "id": 3,
+    "type": "ring",
+    "name": "Whispering Willow Ring",
+    "description": "An enchanting ring with delicate leaves that seem to whisper secrets of nature's beauty.",
+    "price": "250",
+    "rate": "../static/images/4-half-star-rating.png",
+    "image": "../static/images/products/7.png",
+    "wishlist": "fa-solid fa-heart",
+    "addToCart": "fa-solid fa-cart-shopping"
+  },
+  {
+    "id": 4,
+    "type": "ring",
+    "name": "Mystic Moonlight Ring",
+    "description": "Embrace the allure of moonlit nights with this ring, showcasing a luminous moonstone.",
+    "price": "350",
+    "rate": "../static/images/4-half-star-rating.png",
+    "image": "../static/images/products/9.png",
+    "wishlist": "fa-solid fa-heart",
+    "addToCart": "fa-solid fa-cart-shopping"
+  },
+  {
+    "id": 5,
+    "type": "ring",
+    "name": "Radiant Orchid Ring",
+    "description": "A vibrant orchid-inspired ring, symbolizing beauty, strength, and grace.",
+    "price": "200",
+    "rate": "../static/images/4-half-star-rating.png",
+    "image": "../static/images/products/6.png",
+    "wishlist": "fa-solid fa-heart",
+    "addToCart": "fa-solid fa-cart-shopping"
+  },
+  {
+    "id": 6,
+    "type": "earring",
+    "name": "Golden Cascade Earrings",
+    "description": "Dazzling earrings that cascade like golden waterfalls, reflecting the allure of liquid gold.",
+    "price": "400",
+    "rate": "../static/images/4-star-rating.png",
+    "image": "../static/images/products/11.png",
+    "wishlist": "fa-solid fa-heart",
+    "addToCart": "fa-solid fa-cart-shopping"
+  },
+  {
+    "id": 7,
+    "type": "earring",
+    "name": "Sapphire Serenity Earrings",
+    "description": "Elegant sapphire earrings that evoke a sense of calm and serenity with their deep blue hues.",
+    "price": "350",
+    "rate": "../static/images/5-star-rating.png ",
+    "image": "../static/images/products/12.png",
+    "wishlist": "fa-solid fa-heart",
+    "addToCart": "fa-solid fa-cart-shopping"
+  },
+  {
+    "id": 8,
+    "type": "earring",
+    "name": "Harmony Hoop Earrings",
+    "description": "A harmonious blend of silver and gold hoops, creating a versatile and stylish accessory.",
+    "price": "300",
+    "rate": "../static/images/4-star-rating.png",
+    "image": "../static/images/products/13.png",
+    "wishlist": "fa-solid fa-heart",
+    "addToCart": "fa-solid fa-cart-shopping"
+  },
+  {
+    "id": 9,
+    "type": "earring",
+    "name": "Twilight Teardrop Earrings",
+    "description": "Captivating teardrop earrings that reflect the hues of a twilight sky, transitioning from day to night.",
+    "price": "450",
+    "rate": "../static/images/4-half-star-rating.png",
+    "image": "../static/images/products/14.png",
+    "wishlist": "fa-solid fa-heart",
+    "addToCart": "fa-solid fa-cart-shopping"
+  },
+  {
+    "id": 10,
+    "type": "earring",
+    "name": "Rose Petal Bloom Earrings",
+    "description": "Delicate earrings resembling the blooming petals of a rose, symbolizing love and beauty.",
+    "price": "250",
+    "rate": "../static/images/4-half-star-rating.png",
+    "image": "../static/images/products/15.png",
+    "wishlist": "fa-solid fa-heart",
+    "addToCart": "fa-solid fa-cart-shopping"
+  },
+  {
+    "id": 11,
+    "type": "necklace",
+    "name": "Aurora Borealis Necklace",
+    "description": "An enchanting necklace inspired by the dancing lights of the Aurora Borealis, capturing the magic of the northern lights.",
+    "price": "500",
+    "rate": "../static/images/4-half-star-rating.png",
+    "image": "../static/images/products/1.png",
+    "wishlist": "fa-solid fa-heart",
+    "addToCart": "fa-solid fa-cart-shopping"
+  },
+  {
+    "id": 12,
+    "type": "necklace",
+    "name": "Emerald Enchantment Necklace",
+    "description": "A luxurious emerald necklace that exudes enchantment and sophistication.",
+    "price": "450",
+    "rate": "../static/images/5-star-rating.png",
+    "image": "../static/images/products/5.png",
+    "wishlist": "fa-solid fa-heart",
+    "addToCart": "fa-solid fa-cart-shopping"
+  },
+  {
+    "id": 13,
+    "type": "necklace",
+    "name": "Whimsical Waterfall Necklace",
+    "description": "A whimsical necklace featuring cascading beads that mimic the gentle flow of a waterfall.",
+    "price": "350",
+    "rate": "../static/images/4-half-star-rating.png",
+    "image": "../static/images/products/2.png",
+    "wishlist": "fa-solid fa-heart",
+    "addToCart": "fa-solid fa-cart-shopping"
+  },
+  {
+    "id": 14,
+    "type": "necklace",
+    "name": "Moonlit Meadows Necklace",
+    "description": "A necklace adorned with moonlit meadow motifs, capturing the serene beauty of a midnight garden.",
+    "price": "400",
+    "rate": "../static/images/4-star-rating.png",
+    "image": "../static/images/products/3.png",
+    "wishlist": "fa-solid fa-heart",
+    "addToCart": "fa-solid fa-cart-shopping"
+  },
+  {
+    "id": 15,
+    "type": "necklace",
+    "name": "Sunflower Radiance Necklace",
+    "description": "Radiant sunflower necklace symbolizing positivity and the warmth of the sun's embrace.",
+    "price": "300",
+    "rate": "../static/images/4-half-star-rating.png",
+    "image": "../static/images/products/4.png",
+    "wishlist": "fa-solid fa-heart",
+    "addToCart": "fa-solid fa-cart-shopping"
+  }
+]
