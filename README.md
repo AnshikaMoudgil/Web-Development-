@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Blingz-accessories - Milestone Project 3
 
 ![Favicon](https://github.com/zaicodes/blingz-accessories/blob/main/documentation/android-chrome-192x192.png)
@@ -360,3 +361,7 @@ I wish to express profound gratitude to those who offered their invaluable assis
 - Narender S. - my mentor, for checking my progress and providing helpful feedback.
 
 - Jessica I. – for the weekly stand-ups which were very helpful and informative.
+=======
+# Web-Development-
+Web Development project
+>>>>>>> 1bb71c3a063601e60970f9f58857fe282a02a059
